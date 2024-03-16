@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+ background: #411E61;
+}
+.palastine{
+    margin-top: 10px;
+    width: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    list-style: none;
+}
+ul li a {
+    display: grid;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration-line: none;
+}
+.nav-bar:hover {
+color: #96eefe;
+font-size: 21px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph{
+    margin-left: 50px;
+    margin-top: 30px;
+    color:#fff;
+    text-shadow: 2px 3px 5px black;
+    
+}
+span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: yellow;
+}
+pre{
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 15px;   
+}
+.h2{
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;  
+    color: yellow; 
+}
+.h3{
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 30px;
+}
+.h4{
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+p{
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.spero{
+    width: 430px;
+}
+.pic{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.sp{
+    width: 80px;
+}
+.sp:hover{
+    width: 100px;
+    cursor: pointer;
+}
